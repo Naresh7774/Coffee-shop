@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events | Tata Coffee</title>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+    padding-top: 70px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f5f2;
+}
+
+
+.navbar {
+    background-color: #3e2723 !important;
+}
+
+
+.hero {
+    height: 50vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("https://images.unsplash.com/photo-1507914372368-b6a8a54c9b4d?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.special-offer {
+    background-color: #6d4c41;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.footer {
+    background-color: #3e2723;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<div class="container">
+    <a class="navbar-brand" href="index.html"> Tata Coffee</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+
+
+<section class="hero">
+    <div>
+        <h1>Upcoming Events</h1>
+        <p>Join us for exciting coffee moments</p>
+    </div>
+</section>
+
+<section class="section container">
+<div class="row g-4">
+
+    
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80">
+            <div class="card-body">
+                <h5>Live Music Night</h5>
+                <p>Enjoy soothing live music every Saturday evening.</p>
+                <p><strong>Date:</strong> Every Saturday</p>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=800&q=80">
+            <div class="card-body">
+                <h5>Coffee Tasting Event</h5>
+                <p>Explore unique flavors from around the world.</p>
+                <p><strong>Date:</strong> 18th May</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&w=800&q=80">
+            <div class="card-body">
+                <h5>Barista Workshop</h5>
+                <p>Learn coffee art and brewing techniques.</p>
+                <p><strong>Date:</strong> 5th December</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+
+<section class="section container">
+    <div class="special-offer">
+        <h2>Special Offer</h2>
+        <p>Buy 1 Get 1 Free on all Cappuccinos every Friday!</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>@ 2026 Tata Coffee</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

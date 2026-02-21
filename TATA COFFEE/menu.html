@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | Tata Coffee</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+    padding-top: 70px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f5f2;
+}
+
+.navbar {
+    background-color: #3e2723 !important;
+}
+
+.section-title {
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+.section-title h2 {
+    color: #3e2723;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.price {
+    font-weight: bold;
+    color: #6d4c41;
+}
+
+.footer {
+    background-color: #3e2723;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<div class="container">
+    <a class="navbar-brand" href="index.html"> Tata Coffee</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+
+<div class="container">
+
+
+<div class="section-title">
+    <h2>Coffee</h2>
+</div>
+
+<div class="row g-4">
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1669872484166-e11b9638b50e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1lcmljYW5vJTIwY29mZmVlfGVufDB8fDB8fHww">
+            <div class="card-body">
+                <h5>Americano</h5>
+                <p>Espresso diluted with hot water.</p>
+                <p class="price">₹120</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/183138035/photo/cup-of-latte-coffee-and-spoon-on-gray-counter.jpg?s=612x612&w=0&k=20&c=Iht-hG2bzxiZgpjao6RELKAbw4oG7ujS2wQNkiM2rqU=">
+            <div class="card-body">
+                <h5>Flat White</h5>
+                <p>Velvety milk with rich espresso.</p>
+                <p class="price">₹180</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-Square.jpg">
+            <div class="card-body">
+                <h5>Mocha</h5>
+                <p>Chocolate infused espresso delight.</p>
+                <p class="price">₹200</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/536089025/photo/homemade-irish-coffee-with-whiskey.jpg?s=2048x2048&w=is&k=20&c=OQi0s7rjnaz9qd7ECFxoGbAVp7IZ9JND1f7oZT4lqbg=">
+            <div class="card-body">
+                <h5>Irish Coffee</h5>
+                <p>Coffee blended with cream essence.</p>
+                <p class="price">₹200</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://img.taste.com.au/UHFv39Ks/taste/2020/05/jun20_vietnamese-iced-coffee-161761-1.jpg">
+            <div class="card-body">
+                <h5>Vietnamese Iced Coffee</h5>
+                <p>Strong brew with condensed milk.</p>
+                <p class="price">₹200</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://livingthegourmet.com/wp-content/uploads/2021/03/Turkish-Coffee-Ibrik-9.jpg">
+            <div class="card-body">
+                <h5>Turkish Coffee</h5>
+                <p>Finely ground coffee with foam.</p>
+                <p class="price">₹200</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/FOOD_CATALOG/IMAGES/CMS/2025/6/19/1fb1f21d-6c1c-4c91-8a06-6ef0645466bc_8d0336ce-35e6-498e-8d45-8a412ce12e81.jpg">
+            <div class="card-body">
+                <h5>Cold Brew</h5>
+                <p>Slow brewed coffee served chilled.</p>
+                <p class="price">₹200</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/476824782/photo/coffee-latte.jpg?s=612x612&w=0&k=20&c=VPJGWG-hQGwf3648HvtXPMLO_Pp5rN_7ndZUkF0n3l0=">
+            <div class="card-body">
+                <h5>Affogato</h5>
+                <p>Espresso poured over vanilla ice cream.</p>
+                <p class="price">₹200</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1028658748/photo/caffe-latte-layered.jpg?s=612x612&w=0&k=20&c=_XW6ovSfKYi1HNlLYxEDIWjUZhUuDfJaQozxZ9AKSto=">
+            <div class="card-body">
+                <h5>Macchiato</h5>
+                <p>Espresso topped with milk foam.</p>
+                <p class="price">₹200</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="section-title">
+    <h2>Biscuits</h2>
+</div>
+
+<div class="row g-4">
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://assets.bonappetit.com/photos/64cc0823ee399ec121b433b3/1:1/w_2671,h_2671,c_limit/20230726-1023-PANTRY-1523.jpg">
+            <div class="card-body">
+                <h5>Oatmeal Raisin Cookies</h5>
+                <p>Healthy oats with sweet raisins.</p>
+                <p class="price">₹90</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://www.cookiemanindia.com/cdn/shop/products/AlmondTeaCrunch_8d9ade56-f70a-45cc-a6c5-96e32731b06f.jpg?v=1676622097">
+            <div class="card-body">
+                <h5>Almond Crunch Biscuits</h5>
+                <p>Nutty and crispy almond bites.</p>
+                <p class="price">₹80</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://thebananadiaries.com/wp-content/uploads/2023/10/vegan-double-chocolate-chip-cookies_7717.jpg">
+            <div class="card-body">
+                <h5>Double Chocolate Cookies</h5>
+                <p>Rich cocoa-filled cookies.</p>
+                <p class="price">₹80</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://thebakermama.com/wp-content/uploads/2014/06/IMG_8153-scaled.jpg">
+            <div class="card-body">
+                <h5>Honey Wheat Biscuits</h5>
+                <p>Lightly sweetened wheat crunch.</p>
+                <p class="price">₹80</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://joyfoodsunshine.com/wp-content/uploads/2023/09/butterscotch-cookies-recipe-12.jpg">
+            <div class="card-body">
+                <h5>Butter Scotch Cookies</h5>
+                <p>Buttery texture with caramel notes.</p>
+                <p class="price">₹80</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://cdn1.foodviva.com/static-content/food-images/snacks-recipes/cashewnut-cookies-kaju-biscuit/cashewnut-cookies-kaju-biscuit.jpg">
+            <div class="card-body">
+                <h5>Cashew Delight Biscuits</h5>
+                <p>Rich cashew flavored crunch.</p>
+                <p class="price">₹80</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="section-title">
+    <h2>Pastries</h2>
+</div>
+
+<div class="row g-4">
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://ocakes.in/storage/app/public/images/item/item-643d2228cd125.jpg">
+            <div class="card-body">
+                <h5>Red Velvet Pastry</h5>
+                <p>Soft velvet layers with cream cheese.</p>
+                <p class="price">₹150</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://thescranline.com/wp-content/uploads/2021/08/VANILLA-SLICE-24-S-03.jpg">
+            <div class="card-body">
+                <h5>Vanilla Cream Slice</h5>
+                <p>Classic vanilla sponge delight.</p>
+                <p class="price">₹160</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://cremecastle.in/cdn/shop/files/2_Choco_truffle_Pastry.jpg?v=1757072564">
+            <div class="card-body">
+                <h5>Chocolate Truffle Pastry</h5>
+                <p>Dark chocolate ganache layers.</p>
+                <p class="price">₹160</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://dessertholdings.com/cdn/shop/files/MangoMousseCake-TOC06252-WebSizing-45.jpg?v=1752427680">
+            <div class="card-body">
+                <h5>Mango Mousse Cake</h5>
+                <p>Fresh mango creamy indulgence.</p>
+                <p class="price">₹160</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://cdn.uengage.io/uploads/28289/image-6P2HLM-1750419582.jpg">
+            <div class="card-body">
+                <h5>Pineapple Pastry</h5>
+                <p>Tropical pineapple freshness.</p>
+                <p class="price">₹160</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://karamele.in/cdn/shop/files/Teacake_---_Coffee_Walnut_Cake_-_Karamele.jpg?v=1737786923&width=1946">
+            <div class="card-body">
+                <h5>Coffee Walnut Cake</h5>
+                <p>Coffee infused with crunchy walnuts.</p>
+                <p class="price">₹160</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<footer class="footer">
+    <div class="container-fluid text-center">
+        <p>@ 2026 Tata Coffee</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 
